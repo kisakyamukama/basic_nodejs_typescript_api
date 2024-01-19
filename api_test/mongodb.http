@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:8080/api
+
+
+###
+get {{baseUrl}}/getStudents
+
+###
+post {{baseUrl}}/addStudent
+Content-Type: application/json
+
+{
+    "name" : "Kyle",
+    "school" : "Luce Elementary School",
+    "grade" : 5
+}
+
+###
+get {{baseUrl}}/65a7500aaed8e1b3f56bf4bf
+
